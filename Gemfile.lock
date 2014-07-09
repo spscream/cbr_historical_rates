@@ -1,0 +1,14 @@
+PATH
+  remote: .
+  specs:
+    cbr_historical_rates (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cbr_historical_rates!
