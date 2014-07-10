@@ -1,5 +1,6 @@
 require 'money'
 require 'savon'
+require 'date'
 
 class Money
   module Bank

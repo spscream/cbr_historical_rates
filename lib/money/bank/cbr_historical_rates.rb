@@ -1,4 +1,5 @@
 require 'money'
+require 'date'
 require 'savon'
 
 require File.expand_path(File.dirname(__FILE__)) + "/cbr_rates_loader"
