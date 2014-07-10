@@ -22,7 +22,7 @@ class Money
       end
 
       def get_rate(date, from, to)
-        @mutex.syncronize do
+        @mutex.synchronize do
           unless existing_rates = @rates[date.to_s]
             load_rates(date)
             existing_rates = @rates[date.to_s]
