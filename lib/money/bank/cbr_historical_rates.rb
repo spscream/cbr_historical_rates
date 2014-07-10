@@ -8,7 +8,7 @@ class Money
   module Bank
     class InvalidCache < StandardError ; end
 
-    module CbrHistoricalRates < Money::Bank::VariableExchange
+    class CbrHistoricalRates < Money::Bank::VariableExchange
       include Money::Bank::CbrRatesLoader
 
       def add_rate(date, from, to, rate)
